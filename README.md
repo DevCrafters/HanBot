@@ -3,7 +3,7 @@
 > 디스코드에서 만나는 친절한 친구, 한봇.
 
 * 개발자: [DevHN](https://github.com/DevHN05)
-* 도움을 주신 분들: [EntryPoint](https://github.com/EntryPointKR)
+* 도움을 주신 분들: [EntryPoint](https://github.com/EntryPointKR), [Ranol](https://github.com/RanolP)
 * Languages
   * Korean ( 한국어 ) - **Support**
   * English ( English ) - **Not yet supported**
@@ -12,11 +12,12 @@
 
 ### 사용법
 
-대부분의 명령어 접두사는 **h!** 입니다. 이 뒤에 붙는 것들은 원하는 명령어의 압축된 표현을 보여줍니다.
+대부분의 명령어 접두사는 **h!** 입니다. 이 뒤에 붙는 것들은 원하는 명령어의 압축된 표현을 보여줍니다.<br>자세한 사용법은 **h!help** 를 참고하세요.
 
 ### 기능
 
 * [x] 봇 상태 확인 기능 - **h!ping**
+* [ ] 정보 확인 기능 - **h!info**
 * [ ] 봇 명령어 확인 기능 - **h!help**
 * [ ] 음악 기능 - **h!music**
 * [ ] 투표 기능 - **h!vote**
