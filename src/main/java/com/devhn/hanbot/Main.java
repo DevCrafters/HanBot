@@ -1,7 +1,8 @@
 package com.devhn.hanbot;
 
 import com.devhn.hanbot.Command.CommandManager;
-import com.devhn.hanbot.Command.PingCommand;
+import com.devhn.hanbot.Command.Executable.InfoCommand;
+import com.devhn.hanbot.Command.Executable.PingCommand;
 import com.devhn.hanbot.Listener.MessageListener;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
@@ -16,6 +17,7 @@ public class Main {
 
     static {
         manager.registerCommand(new PingCommand());
+        manager.registerCommand(new InfoCommand());
     }
 
     public static void main(String[] args) throws Exception {
