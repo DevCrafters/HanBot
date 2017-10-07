@@ -16,7 +16,7 @@ public class PingCommand implements Command {
         User user = mre.getAuthor();
         TextChannel channel = mre.getTextChannel();
 
-        System.out.printf("[%s] %s 님이 %s 명령어를 실행하였습니다.", message.getCreationTime().toString(), user.getName(), label());
+        System.out.printf("\n[%s] %s 님이 %s 명령어를 실행하였습니다.", message.getCreationTime().toString(), user.getName(), label());
         channel.sendMessage("pong!").queue();
     }
 }
