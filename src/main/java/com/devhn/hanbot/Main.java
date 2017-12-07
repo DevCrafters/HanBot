@@ -22,7 +22,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         JDA api = new JDABuilder(AccountType.BOT)
-                .setToken("MzE5MDM1MDM2MjE5MjExNzc3.DLkLwQ.R74mLmBzPuFBXTxlg5cY7oexZ1I")
+                .setToken("TOKEN")
                 .buildAsync();
 
         api.addEventListener(new MessageListener(manager));
