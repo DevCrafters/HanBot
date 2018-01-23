@@ -15,7 +15,7 @@ public class CommandManager {
     public void execute(MessageReceivedEvent mre) {
         String commandLine = mre.getMessage().getContent();
         String label = commandLine;
-        String args = "";
+        String args = " ";
         int point = commandLine.indexOf(' ');
         if (point >= 0) {
             label = commandLine.substring(0, point);
